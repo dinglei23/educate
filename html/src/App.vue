@@ -36,11 +36,19 @@
               </el-menu-item>
               <el-menu-item index="/VideoAndList">
                 <i class="el-icon-document"></i>
-                <span slot="title">视频列表</span>
+                <span slot="title">视频分类</span>
               </el-menu-item>
               <el-menu-item index="/ImgAndTitle">
                 <i class="el-icon-document"></i>
                 <span slot="title">识谱卡片</span>
+              </el-menu-item>
+              <el-menu-item index="/AddAndUser">
+                <i class="el-icon-document"></i>
+                <span slot="title">用户管理</span>
+              </el-menu-item>
+              <el-menu-item index="/AddAndCode">
+                <i class="el-icon-document"></i>
+                <span slot="title">学员码</span>
               </el-menu-item>
               <!-- <el-menu-item index="4">
                 <i class="el-icon-setting"></i>

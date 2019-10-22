@@ -5,8 +5,9 @@ import AddAndRoot from '../views/AddAndRoot.vue'
 import AddAndOne from '../views/AddAndOne.vue'
 import AddAndTwo from '../views/AddAndTwo.vue'
 import VideoAndList from '../views/VideoAndList.vue'
-import VideoAndInfo from '../views/VideoAndInfo.vue'
+import AddAndUser from '../views/AddAndUser.vue'
 import ImgAndTitle from '../views/ImgAndTitle.vue'
+import AddAndCode from '../views/AddAndCode.vue'
 
 Vue.use(VueRouter)
 
@@ -40,6 +41,16 @@ const routes = [
     path: '/ImgAndTitle',  //识谱卡标题
     name: 'ImgAndTitle',
     component: ImgAndTitle
+  },
+  {
+    path: '/AddAndUser',  //用户页面
+    name: 'AddAndUser',
+    component: AddAndUser
+  },
+  {
+    path: '/AddAndCode',  //学员码
+    name: 'AddAndCode',
+    component: AddAndCode
   }
 ]
 
